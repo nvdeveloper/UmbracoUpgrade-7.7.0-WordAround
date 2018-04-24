@@ -1,0 +1,1604 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Monday, 23 April 2018 1:04:52 PM
+   Source : C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\
+     Dest : C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\DatabaseMigration_7.7.0\Umbraco\
+
+    Files : *.*
+	    
+Exc Files : UI.xml
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  10	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\
+	    Older     		    2359	ClientRedirect.aspx  0%  100%  
+	    Older     		    1442	create.aspx  0%  100%  
+	    Older     		     792	endPreview.aspx  0%  100%  
+	    Older     		    1624	Logout.aspx  0%  100%  
+	    Older     		     492	macroResultWrapper.aspx  0%  100%  
+	    Older     		      61	ping.aspx  0%  100%  
+	    Older     		     891	publishStatus.aspx  0%  100%  
+	    Older     		     179	tree.aspx  0%  100%  
+	    Older     		    1887	treeInit.aspx  0%  100%  
+	    Older     		     126	umbraco.aspx  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Actions\
+	    Older     		    1155	delete.aspx  0%  100%  
+	    Older     		     480	editContent.aspx  0%  100%  
+	    Older     		     471	preview.aspx  0%  100%  
+	    Older     		    1203	publish.aspx  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\css\
+	    Older     		   38260	canvasdesigner.css  0%  100%  
+	    Older     		   35096	installer.css  0%  100%  
+	    Older     		    6585	nonodes.style.min.css  0%  100%  
+	    Older     		  334116	umbraco.css  0%   39%   78%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\fonts\
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\fonts\helveticons\
+	    Older     		  117324	helveticons.eot  0%  100%  
+	    Older     		  793966	helveticons.svg  0%   33%   66%   99%  100%  
+	    Older     		  117160	helveticons.ttf  0%  100%  
+	    Older     		  294540	helveticons.woff  0%   44%   89%  100%  
+	                  32	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\fonts\lato\
+	    Older     		   66110	LatoLatin-Black.eot  0%  100%  
+	    Older     		  144228	LatoLatin-Black.ttf  0%   90%  100%  
+	    Older     		   70460	LatoLatin-Black.woff  0%  100%  
+	    Older     		   43456	LatoLatin-Black.woff2  0%  100%  
+	    Older     		   67322	LatoLatin-BlackItalic.eot  0%  100%  
+	    Older     		  150720	LatoLatin-BlackItalic.ttf  0%   86%  100%  
+	    Older     		   72372	LatoLatin-BlackItalic.woff  0%  100%  
+	    Older     		   44316	LatoLatin-BlackItalic.woff2  0%  100%  
+	    Older     		   68209	LatoLatin-Bold.eot  0%  100%  
+	    Older     		  146156	LatoLatin-Bold.ttf  0%   89%  100%  
+	    Older     		   72376	LatoLatin-Bold.woff  0%  100%  
+	    Older     		   44380	LatoLatin-Bold.woff2  0%  100%  
+	    Older     		   69528	LatoLatin-BoldItalic.eot  0%  100%  
+	    Older     		  149756	LatoLatin-BoldItalic.ttf  0%   87%  100%  
+	    Older     		   73700	LatoLatin-BoldItalic.woff  0%  100%  
+	    Older     		   45036	LatoLatin-BoldItalic.woff2  0%  100%  
+	    Older     		   69771	LatoLatin-Italic.eot  0%  100%  
+	    Older     		  153688	LatoLatin-Italic.ttf  0%   85%  100%  
+	    Older     		   74708	LatoLatin-Italic.woff  0%  100%  
+	    Older     		   45388	LatoLatin-Italic.woff2  0%  100%  
+	    Older     		   67508	LatoLatin-Light.eot  0%  100%  
+	    Older     		  151856	LatoLatin-Light.ttf  0%   86%  100%  
+	    Older     		   72604	LatoLatin-Light.woff  0%  100%  
+	    Older     		   43468	LatoLatin-Light.woff2  0%  100%  
+	    Older     		   68553	LatoLatin-LightItalic.eot  0%  100%  
+	    Older     		  153096	LatoLatin-LightItalic.ttf  0%   85%  100%  
+	    Older     		   73444	LatoLatin-LightItalic.woff  0%  100%  
+	    Older     		   44156	LatoLatin-LightItalic.woff2  0%  100%  
+	    Older     		   68135	LatoLatin-Regular.eot  0%  100%  
+	    Older     		  148540	LatoLatin-Regular.ttf  0%   88%  100%  
+	    Older     		   72456	LatoLatin-Regular.woff  0%  100%  
+	    Older     		   43760	LatoLatin-Regular.woff2  0%  100%  
+	                   9	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\fonts\opensans\
+	    Older     		   19836	OpenSans-Regular-webfont.eot  0%  100%  
+	    Older     		  121229	OpenSans-Regular-webfont.svg  0%  100%  
+	    Older     		   38232	OpenSans-Regular-webfont.ttf  0%  100%  
+	    Older     		   22660	OpenSans-Regular-webfont.woff  0%  100%  
+	    Older     		  217360	OpenSans-Regular.ttf  0%   60%  100%  
+	    Older     		   20028	OpenSans-Semibold-webfont.eot  0%  100%  
+	    Older     		  120293	OpenSans-Semibold-webfont.svg  0%  100%  
+	    Older     		   39476	OpenSans-Semibold-webfont.ttf  0%  100%  
+	    Older     		   22908	OpenSans-Semibold-webfont.woff  0%  100%  
+	                   7	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\img\
+	    Older     		     957	checkered-background-20.png  0%  100%  
+	    Older     		     165	checkered-background.png  0%  100%  
+	    Older     		  317197	installer.jpg  0%   41%   82%  100%  
+	    Older     		   23155	loader.gif  0%  100%  
+	    Older     		    1746	logo.png  0%  100%  
+	    Older     		  237538	nonodesbg.jpg  0%   55%  100%  
+	    Older     		   14993	transparent.png  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\img\application\
+	    Older     		    1175	logo.png  0%  100%  
+	    Older     		    2433	logo@2x.png  0%  100%  
+	    Older     		    3796	logo@3x.png  0%  100%  
+	    Older     		    1280	logo_black.png  0%  100%  
+	    Older     		    1333	logo_white.png  0%  100%  
+	                  11	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\img\applicationIcons\
+	    Older     		    1139	content.png  0%  100%  
+	    Older     		    1581	default.png  0%  100%  
+	    Older     		    1376	developer.png  0%  100%  
+	    Older     		    1702	help.svg  0%  100%  
+	    Older     		    7364	hlvticons-umbraco.svg  0%  100%  
+	    Older     		    1386	media.png  0%  100%  
+	    Older     		    1342	members.png  0%  100%  
+	    Older     		    1179	search.png  0%  100%  
+	    Older     		    1612	settings.png  0%  100%  
+	    Older     		    2828	tree-arrow.png  0%  100%  
+	    Older     		    1304	users.png  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\img\forms\
+	    Older     		   37864	installer-background.png  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\img\uploader\
+	    Older     		    1738	upload-illustration.png  0%  100%  
+	    Older     		    1400	upload-illustration.svg  0%  100%  
+	                  11	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\assets\less\
+	    Older     		     715	background.less  0%  100%  
+	    Older     		    1894	border.less  0%  100%  
+	    Older     		     370	color.less  0%  100%  
+	    Older     		     817	googlefontpicker.less  0%  100%  
+	    Older     		     831	gridRow.less  0%  100%  
+	    Older     		    1872	layout.less  0%  100%  
+	    Older     		    1135	margin.less  0%  100%  
+	    Older     		    1156	padding.less  0%  100%  
+	    Older     		    2247	radius.less  0%  100%  
+	    Older     		     639	shadow.less  0%  100%  
+	    Older     		     473	slider.less  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Config\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Config\Create\
+	                  20	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Config\Lang\
+	    Older     		   67283	cs.xml  0%  100%  
+	    Older     		   81241	da.xml  0%  100%  
+	    Older     		   71290	de.xml  0%  100%  
+	    Older     		  110372	en.xml  0%  100%  
+	    Older     		  110355	en_us.xml  0%  100%  
+	    Older     		   67158	es.xml  0%  100%  
+	    Older     		  109862	fr.xml  0%  100%  
+	    Older     		   63099	he.xml  0%  100%  
+	    Older     		   63339	it.xml  0%  100%  
+	    Older     		   87543	ja.xml  0%  100%  
+	    Older     		   59563	ko.xml  0%  100%  
+	    Older     		   66376	nb.xml  0%  100%  
+	    Older     		   92643	nl.xml  0%  100%  
+	    Older     		  107449	pl.xml  0%  100%  
+	    Older     		   58162	pt.xml  0%  100%  
+	    Older     		  163377	ru.xml  0%   80%  100%  
+	    Older     		   67497	sv.xml  0%  100%  
+	    Older     		   67332	tr.xml  0%  100%  
+	    Older     		   90432	zh.xml  0%  100%  
+	    Older     		   81912	zh_tw.xml  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Controls\
+	    Older     		     309	ProgressBar.ascx  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Controls\Tree\
+	    Older     		      82	CustomTreeService.asmx  0%  100%  
+	    Older     		    2725	TreeControl.ascx  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Create\
+	    Older     		    1039	language.ascx  0%  100%  
+	    Older     		    1279	simple.ascx  0%  100%  
+	    Older     		    1696	xslt.ascx  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Dashboard\
+	    Older     		     178	FeedProxy.aspx  0%  100%  
+	    Older     		    1761	UserControlProxy.aspx  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\Macros\
+	    Older     		    1674	assemblyBrowser.aspx  0%  100%  
+	    Older     		   11871	editMacro.aspx  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\Packages\
+	    Older     		    1171	directoryBrowser.aspx  0%  100%  
+	    Older     		   12722	editPackage.aspx  0%  100%  
+	    Older     		   18426	installer.aspx  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\RelationTypes\
+	    Older     		    6536	EditRelationType.aspx  0%  100%  
+	    Older     		    3013	NewRelationType.aspx  0%  100%  
+	    Older     		     162	RelationTypesWebService.asmx  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\RelationTypes\Images\
+	    Older     		     421	Bidirectional.png  0%  100%  
+	    Older     		     434	ParentToChild.png  0%  100%  
+	    Older     		    1053	Refresh.gif  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\RelationTypes\TreeMenu\
+	    Older     		     731	ActionDeleteRelationType.js  0%  100%  
+	    Older     		     172	ActionNewRelationType.js  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Developer\Xslt\
+	    Older     		    3251	editXslt.aspx  0%  100%  
+	    Older     		     108	getXsltStatus.asmx  0%  100%  
+	    Older     		    2160	xsltChooseExtension.aspx  0%  100%  
+	    Older     		    2588	xsltInsertValueOf.aspx  0%  100%  
+	    Older     		    2895	xsltVisualize.aspx  0%  100%  
+	                  20	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Dialogs\
+	    Older     		    4277	AssignDomain2.aspx  0%  100%  
+	    Older     		    6285	ChangeDocType.aspx  0%  100%  
+	    Older     		    3217	create.aspx  0%  100%  
+	    Older     		    3654	EditMacro.aspx  0%  100%  
+	    Older     		     262	empty.htm  0%  100%  
+	    Older     		     150	exportDocumenttype.aspx  0%  100%  
+	    Older     		    2031	importDocumenttype.aspx  0%  100%  
+	    Older     		     815	notifications.aspx  0%  100%  
+	    Older     		     748	Preview.aspx  0%  100%  
+	    Older     		   10333	protectPage.aspx  0%  100%  
+	    Older     		    4211	publish.aspx  0%  100%  
+	    Older     		    1779	republish.aspx  0%  100%  
+	    Older     		    4204	rollBack.aspx  0%  100%  
+	    Older     		    1856	search.aspx  0%  100%  
+	    Older     		     735	SendPublish.aspx  0%  100%  
+	    Older     		    1638	sendToTranslation.aspx  0%  100%  
+	    Older     		    4124	sort.aspx  0%  100%  
+	    Older     		    1076	treePicker.aspx  0%  100%  
+	    Older     		    6939	umbracoField.aspx  0%  100%  
+	    Older     		    3076	viewAuditTrail.aspx  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Install\
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Install\Views\
+	    Older     		    2957	Index.cshtml  0%  100%  
+	    Older     		    2870	Web.config  0%  100%  
+	                  26	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Js\
+	    Older     		     370	app.dev.js  0%  100%  
+	    Older     		    2494	app.js  0%  100%  
+	    Older     		     647	canvasdesigner.loader.js  0%  100%  
+	    Older     		    1249	dualSelectBox.js  0%  100%  
+	    Older     		    2929	guiFunctions.js  0%  100%  
+	    Older     		    4907	init.js  0%  100%  
+	    Older     		     597	install.loader.js  0%  100%  
+	    Older     		     150	installer.app.js  0%  100%  
+	    Older     		    1385	loader.dev.js  0%  100%  
+	    Older     		    9464	routes.js  0%  100%  
+	    Older     		  132723	umbraco.canvasdesigner.js  0%   98%  100%  
+	    Older     		  846990	umbraco.controllers.js  0%   30%   61%   92%  100%  
+	    Older     		  494525	umbraco.directives.js  0%   26%   53%   79%  100%  
+	    Older     		    4299	umbraco.filters.js  0%  100%  
+	    Older     		   19110	umbraco.installer.js  0%  100%  
+	    Older     		  185576	umbraco.resources.js  0%   70%  100%  
+	    Older     		   11266	umbraco.security.js  0%  100%  
+	    Older     		  456488	umbraco.services.js  0%   28%   57%   86%  100%  
+	    Older     		    2926	umbracoCheckKeys.js  0%  100%  
+	    Older     		    3833	UmbracoSpeechBubble.js  0%  100%  
+	    Older     		    2738	UmbracoSpeechBubbleBackEnd.js  0%  100%  
+	    Older     		     201	UmbracoSpeechBubbleInit.js  0%  100%  
+	    Older     		     586	umbracoUpgradeChecker.js  0%  100%  
+	    Older     		     257	web.config  0%  100%  
+	    Older     		    4102	xmlextras.js  0%  100%  
+	    Older     		    1951	xmlRequest.js  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ace-builds\
+	                   8	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\
+	    Older     		  362292	ace.js  0%   36%   72%  100%  
+	    Older     		   34629	ext-language_tools.js  0%  100%  
+	    Older     		   11711	ext-searchbox.js  0%  100%  
+	    Older     		   12359	ext-settings_menu.js  0%  100%  
+	    Older     		   18191	mode-javascript.js  0%  100%  
+	    Older     		   67147	mode-razor.js  0%  100%  
+	    Older     		    2712	theme-chrome.js  0%  100%  
+	    Older     		  164518	worker-javascript.js  0%   79%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ace-builds\src-min-noconflict\snippets\
+	    Older     		    3840	javascript.js  0%  100%  
+	    Older     		     131	text.js  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ace-razor-mode\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ace-razor-mode\theme\
+	    Older     		    3037	razor_chrome.css  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular\
+	    Older     		   12518	angular-ui-sortable.js  0%  100%  
+	                  14	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular\1.1.5\
+	    Older     		    5399	angular-cookies.js  0%  100%  
+	    Older     		     806	angular-cookies.min.js  0%  100%  
+	    Older     		   10645	angular-loader.js  0%  100%  
+	    Older     		     933	angular-loader.min.js  0%  100%  
+	    Older     		   17504	angular-mobile.js  0%  100%  
+	    Older     		    2875	angular-mobile.min.js  0%  100%  
+	    Older     		   61335	angular-mocks.js  0%  100%  
+	    Older     		   22149	angular-resource.js  0%  100%  
+	    Older     		    2787	angular-resource.min.js  0%  100%  
+	    Older     		   18873	angular-sanitize.js  0%  100%  
+	    Older     		    3942	angular-sanitize.min.js  0%  100%  
+	    Older     		  934395	angular-scenario.js  0%   28%   56%   84%  100%  
+	    Older     		  590854	angular.js  0%   44%   88%  100%  
+	    Older     		   89030	angular.min.js  0%  100%  
+	                 287	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular\1.1.5\i18n\
+	    Older     		    2218	angular-locale_af-na.js  0%  100%  
+	    Older     		    2226	angular-locale_af-za.js  0%  100%  
+	    Older     		    2223	angular-locale_af.js  0%  100%  
+	    Older     		    2836	angular-locale_am-et.js  0%  100%  
+	    Older     		    2833	angular-locale_am.js  0%  100%  
+	    Older     		    3706	angular-locale_ar-001.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-ae.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-bh.js  0%  100%  
+	    Older     		    3657	angular-locale_ar-dz.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-eg.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-iq.js  0%  100%  
+	    Older     		    3869	angular-locale_ar-jo.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-kw.js  0%  100%  
+	    Older     		    3869	angular-locale_ar-lb.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-ly.js  0%  100%  
+	    Older     		    3657	angular-locale_ar-ma.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-om.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-qa.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-sa.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-sd.js  0%  100%  
+	    Older     		    3869	angular-locale_ar-sy.js  0%  100%  
+	    Older     		    3657	angular-locale_ar-tn.js  0%  100%  
+	    Older     		    3705	angular-locale_ar-ye.js  0%  100%  
+	    Older     		    3702	angular-locale_ar.js  0%  100%  
+	    Older     		    3137	angular-locale_bg-bg.js  0%  100%  
+	    Older     		    3134	angular-locale_bg.js  0%  100%  
+	    Older     		    3458	angular-locale_bn-bd.js  0%  100%  
+	    Older     		    3458	angular-locale_bn-in.js  0%  100%  
+	    Older     		    3455	angular-locale_bn.js  0%  100%  
+	    Older     		    2345	angular-locale_ca-ad.js  0%  100%  
+	    Older     		    2345	angular-locale_ca-es.js  0%  100%  
+	    Older     		    2342	angular-locale_ca.js  0%  100%  
+	    Older     		    1144	angular-locale_chr.js  0%  100%  
+	    Older     		    2445	angular-locale_cs-cz.js  0%  100%  
+	    Older     		    2442	angular-locale_cs.js  0%  100%  
+	    Older     		     938	angular-locale_cy.js  0%  100%  
+	    Older     		    2259	angular-locale_da-dk.js  0%  100%  
+	    Older     		    2256	angular-locale_da.js  0%  100%  
+	    Older     		    2261	angular-locale_de-at.js  0%  100%  
+	    Older     		    2249	angular-locale_de-be.js  0%  100%  
+	    Older     		    2240	angular-locale_de-ch.js  0%  100%  
+	    Older     		    2249	angular-locale_de-de.js  0%  100%  
+	    Older     		    2249	angular-locale_de-li.js  0%  100%  
+	    Older     		    2249	angular-locale_de-lu.js  0%  100%  
+	    Older     		    2246	angular-locale_de.js  0%  100%  
+	    Older     		    3327	angular-locale_el-cy.js  0%  100%  
+	    Older     		    3327	angular-locale_el-gr.js  0%  100%  
+	    Older     		    1495	angular-locale_el-polyton.js  0%  100%  
+	    Older     		    3324	angular-locale_el.js  0%  100%  
+	    Older     		    2212	angular-locale_en-as.js  0%  100%  
+	    Older     		    2216	angular-locale_en-au.js  0%  100%  
+	    Older     		    2212	angular-locale_en-bb.js  0%  100%  
+	    Older     		    2208	angular-locale_en-be.js  0%  100%  
+	    Older     		    2212	angular-locale_en-bm.js  0%  100%  
+	    Older     		    2215	angular-locale_en-bw.js  0%  100%  
+	    Older     		    2206	angular-locale_en-bz.js  0%  100%  
+	    Older     		    2220	angular-locale_en-ca.js  0%  100%  
+	    Older     		    4060	angular-locale_en-dsrt-us.js  0%  100%  
+	    Older     		    4057	angular-locale_en-dsrt.js  0%  100%  
+	    Older     		    2212	angular-locale_en-fm.js  0%  100%  
+	    Older     		    2216	angular-locale_en-gb.js  0%  100%  
+	    Older     		    2212	angular-locale_en-gu.js  0%  100%  
+	    Older     		    2212	angular-locale_en-gy.js  0%  100%  
+	    Older     		    2212	angular-locale_en-hk.js  0%  100%  
+	    Older     		    2224	angular-locale_en-ie.js  0%  100%  
+	    Older     		    2229	angular-locale_en-in.js  0%  100%  
+	    Older     		    2214	angular-locale_en-iso.js  0%  100%  
+	    Older     		    2212	angular-locale_en-jm.js  0%  100%  
+	    Older     		    2212	angular-locale_en-mh.js  0%  100%  
+	    Older     		    2212	angular-locale_en-mp.js  0%  100%  
+	    Older     		    2219	angular-locale_en-mt.js  0%  100%  
+	    Older     		    2212	angular-locale_en-mu.js  0%  100%  
+	    Older     		    2212	angular-locale_en-na.js  0%  100%  
+	    Older     		    2214	angular-locale_en-nz.js  0%  100%  
+	    Older     		    2212	angular-locale_en-ph.js  0%  100%  
+	    Older     		    2213	angular-locale_en-pk.js  0%  100%  
+	    Older     		    2212	angular-locale_en-pr.js  0%  100%  
+	    Older     		    2212	angular-locale_en-pw.js  0%  100%  
+	    Older     		    2212	angular-locale_en-sg.js  0%  100%  
+	    Older     		    2212	angular-locale_en-tc.js  0%  100%  
+	    Older     		    2212	angular-locale_en-tt.js  0%  100%  
+	    Older     		    2212	angular-locale_en-um.js  0%  100%  
+	    Older     		    2212	angular-locale_en-us.js  0%  100%  
+	    Older     		    2212	angular-locale_en-vg.js  0%  100%  
+	    Older     		    2212	angular-locale_en-vi.js  0%  100%  
+	    Older     		    2224	angular-locale_en-za.js  0%  100%  
+	    Older     		    2215	angular-locale_en-zw.js  0%  100%  
+	    Older     		    1242	angular-locale_en-zz.js  0%  100%  
+	    Older     		    2209	angular-locale_en.js  0%  100%  
+	    Older     		    2257	angular-locale_es-419.js  0%  100%  
+	    Older     		    2273	angular-locale_es-ar.js  0%  100%  
+	    Older     		    2273	angular-locale_es-bo.js  0%  100%  
+	    Older     		    2269	angular-locale_es-cl.js  0%  100%  
+	    Older     		    2265	angular-locale_es-co.js  0%  100%  
+	    Older     		    2273	angular-locale_es-cr.js  0%  100%  
+	    Older     		    2273	angular-locale_es-do.js  0%  100%  
+	    Older     		    2273	angular-locale_es-ea.js  0%  100%  
+	    Older     		    2269	angular-locale_es-ec.js  0%  100%  
+	    Older     		    2273	angular-locale_es-es.js  0%  100%  
+	    Older     		    2273	angular-locale_es-gq.js  0%  100%  
+	    Older     		    2269	angular-locale_es-gt.js  0%  100%  
+	    Older     		    2274	angular-locale_es-hn.js  0%  100%  
+	    Older     		    2273	angular-locale_es-ic.js  0%  100%  
+	    Older     		    2273	angular-locale_es-mx.js  0%  100%  
+	    Older     		    2273	angular-locale_es-ni.js  0%  100%  
+	    Older     		    2273	angular-locale_es-pa.js  0%  100%  
+	    Older     		    2271	angular-locale_es-pe.js  0%  100%  
+	    Older     		    2273	angular-locale_es-pr.js  0%  100%  
+	    Older     		    2273	angular-locale_es-py.js  0%  100%  
+	    Older     		    2273	angular-locale_es-sv.js  0%  100%  
+	    Older     		    2269	angular-locale_es-us.js  0%  100%  
+	    Older     		    2273	angular-locale_es-uy.js  0%  100%  
+	    Older     		    2273	angular-locale_es-ve.js  0%  100%  
+	    Older     		    2270	angular-locale_es.js  0%  100%  
+	    Older     		    2316	angular-locale_et-ee.js  0%  100%  
+	    Older     		    2313	angular-locale_et.js  0%  100%  
+	    Older     		    2267	angular-locale_eu-es.js  0%  100%  
+	    Older     		    2264	angular-locale_eu.js  0%  100%  
+	    Older     		    3249	angular-locale_fa-af.js  0%  100%  
+	    Older     		    3345	angular-locale_fa-ir.js  0%  100%  
+	    Older     		    3342	angular-locale_fa.js  0%  100%  
+	    Older     		    2392	angular-locale_fi-fi.js  0%  100%  
+	    Older     		    2389	angular-locale_fi.js  0%  100%  
+	    Older     		    2224	angular-locale_fil-ph.js  0%  100%  
+	    Older     		    2221	angular-locale_fil.js  0%  100%  
+	    Older     		    2293	angular-locale_fr-be.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-bf.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-bi.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-bj.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-bl.js  0%  100%  
+	    Older     		    2296	angular-locale_fr-ca.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-cd.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-cf.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-cg.js  0%  100%  
+	    Older     		    2296	angular-locale_fr-ch.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-ci.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-cm.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-dj.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-fr.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-ga.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-gf.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-gn.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-gp.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-gq.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-km.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-lu.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-mc.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-mf.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-mg.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-ml.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-mq.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-ne.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-re.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-rw.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-sn.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-td.js  0%  100%  
+	    Older     		    2256	angular-locale_fr-tg.js  0%  100%  
+	    Older     		    2295	angular-locale_fr-yt.js  0%  100%  
+	    Older     		    2292	angular-locale_fr.js  0%  100%  
+	    Older     		    2243	angular-locale_gl-es.js  0%  100%  
+	    Older     		    2240	angular-locale_gl.js  0%  100%  
+	    Older     		    2286	angular-locale_gsw-ch.js  0%  100%  
+	    Older     		    2283	angular-locale_gsw.js  0%  100%  
+	    Older     		    3248	angular-locale_gu-in.js  0%  100%  
+	    Older     		    3245	angular-locale_gu.js  0%  100%  
+	    Older     		     926	angular-locale_haw.js  0%  100%  
+	    Older     		    3228	angular-locale_he-il.js  0%  100%  
+	    Older     		    3225	angular-locale_he.js  0%  100%  
+	    Older     		    3266	angular-locale_hi-in.js  0%  100%  
+	    Older     		    3263	angular-locale_hi.js  0%  100%  
+	    Older     		    2556	angular-locale_hr-hr.js  0%  100%  
+	    Older     		    2553	angular-locale_hr.js  0%  100%  
+	    Older     		    2307	angular-locale_hu-hu.js  0%  100%  
+	    Older     		    2304	angular-locale_hu.js  0%  100%  
+	    Older     		    2160	angular-locale_id-id.js  0%  100%  
+	    Older     		    2157	angular-locale_id.js  0%  100%  
+	    Older     		    2157	angular-locale_in.js  0%  100%  
+	    Older     		    2372	angular-locale_is-is.js  0%  100%  
+	    Older     		    2369	angular-locale_is.js  0%  100%  
+	    Older     		    2226	angular-locale_it-ch.js  0%  100%  
+	    Older     		    2259	angular-locale_it-it.js  0%  100%  
+	    Older     		    2259	angular-locale_it-sm.js  0%  100%  
+	    Older     		    2256	angular-locale_it.js  0%  100%  
+	    Older     		    3177	angular-locale_iw.js  0%  100%  
+	    Older     		    2375	angular-locale_ja-jp.js  0%  100%  
+	    Older     		    2372	angular-locale_ja.js  0%  100%  
+	    Older     		    3242	angular-locale_kn-in.js  0%  100%  
+	    Older     		    3239	angular-locale_kn.js  0%  100%  
+	    Older     		    2389	angular-locale_ko-kr.js  0%  100%  
+	    Older     		    2386	angular-locale_ko.js  0%  100%  
+	    Older     		    2746	angular-locale_ln-cd.js  0%  100%  
+	    Older     		    2462	angular-locale_ln-cg.js  0%  100%  
+	    Older     		    2743	angular-locale_ln.js  0%  100%  
+	    Older     		    2522	angular-locale_lt-lt.js  0%  100%  
+	    Older     		    2519	angular-locale_lt.js  0%  100%  
+	    Older     		    2447	angular-locale_lv-lv.js  0%  100%  
+	    Older     		    2444	angular-locale_lv.js  0%  100%  
+	    Older     		    3515	angular-locale_ml-in.js  0%  100%  
+	    Older     		    3512	angular-locale_ml.js  0%  100%  
+	    Older     		    1387	angular-locale_mo.js  0%  100%  
+	    Older     		    3243	angular-locale_mr-in.js  0%  100%  
+	    Older     		    3240	angular-locale_mr.js  0%  100%  
+	    Older     		    2148	angular-locale_ms-bn.js  0%  100%  
+	    Older     		    2153	angular-locale_ms-my.js  0%  100%  
+	    Older     		    2150	angular-locale_ms.js  0%  100%  
+	    Older     		    2492	angular-locale_mt-mt.js  0%  100%  
+	    Older     		    2489	angular-locale_mt.js  0%  100%  
+	    Older     		    2220	angular-locale_nl-aw.js  0%  100%  
+	    Older     		    2218	angular-locale_nl-be.js  0%  100%  
+	    Older     		    2231	angular-locale_nl-cw.js  0%  100%  
+	    Older     		    2231	angular-locale_nl-nl.js  0%  100%  
+	    Older     		    2231	angular-locale_nl-sx.js  0%  100%  
+	    Older     		    2228	angular-locale_nl.js  0%  100%  
+	    Older     		    2254	angular-locale_no.js  0%  100%  
+	    Older     		    3405	angular-locale_or-in.js  0%  100%  
+	    Older     		    3402	angular-locale_or.js  0%  100%  
+	    Older     		    2586	angular-locale_pl-pl.js  0%  100%  
+	    Older     		    2583	angular-locale_pl.js  0%  100%  
+	    Older     		    2264	angular-locale_pt-ao.js  0%  100%  
+	    Older     		    2280	angular-locale_pt-br.js  0%  100%  
+	    Older     		    2264	angular-locale_pt-gw.js  0%  100%  
+	    Older     		    2264	angular-locale_pt-mz.js  0%  100%  
+	    Older     		    2304	angular-locale_pt-pt.js  0%  100%  
+	    Older     		    2264	angular-locale_pt-st.js  0%  100%  
+	    Older     		    2277	angular-locale_pt.js  0%  100%  
+	    Older     		    2344	angular-locale_ro-md.js  0%  100%  
+	    Older     		    2376	angular-locale_ro-ro.js  0%  100%  
+	    Older     		    2373	angular-locale_ro.js  0%  100%  
+	    Older     		    2755	angular-locale_ru-md.js  0%  100%  
+	    Older     		    3607	angular-locale_ru-ru.js  0%  100%  
+	    Older     		    2746	angular-locale_ru-ua.js  0%  100%  
+	    Older     		    3604	angular-locale_ru.js  0%  100%  
+	    Older     		    2379	angular-locale_sk-sk.js  0%  100%  
+	    Older     		    2376	angular-locale_sk.js  0%  100%  
+	    Older     		    2384	angular-locale_sl-si.js  0%  100%  
+	    Older     		    2381	angular-locale_sl.js  0%  100%  
+	    Older     		    2269	angular-locale_sq-al.js  0%  100%  
+	    Older     		    2266	angular-locale_sq.js  0%  100%  
+	    Older     		    2716	angular-locale_sr-cyrl-ba.js  0%  100%  
+	    Older     		    2702	angular-locale_sr-cyrl-me.js  0%  100%  
+	    Older     		    3454	angular-locale_sr-cyrl-rs.js  0%  100%  
+	    Older     		    2699	angular-locale_sr-cyrl.js  0%  100%  
+	    Older     		    2520	angular-locale_sr-latn-ba.js  0%  100%  
+	    Older     		    2519	angular-locale_sr-latn-me.js  0%  100%  
+	    Older     		    2536	angular-locale_sr-latn-rs.js  0%  100%  
+	    Older     		    2517	angular-locale_sr-latn.js  0%  100%  
+	    Older     		    1764	angular-locale_sr-rs.js  0%  100%  
+	    Older     		    3446	angular-locale_sr.js  0%  100%  
+	    Older     		    2230	angular-locale_sv-fi.js  0%  100%  
+	    Older     		    2266	angular-locale_sv-se.js  0%  100%  
+	    Older     		    2263	angular-locale_sv.js  0%  100%  
+	    Older     		    2223	angular-locale_sw-ke.js  0%  100%  
+	    Older     		    2223	angular-locale_sw-tz.js  0%  100%  
+	    Older     		    2220	angular-locale_sw.js  0%  100%  
+	    Older     		    3052	angular-locale_ta-in.js  0%  100%  
+	    Older     		    2543	angular-locale_ta-lk.js  0%  100%  
+	    Older     		    3049	angular-locale_ta.js  0%  100%  
+	    Older     		    3343	angular-locale_te-in.js  0%  100%  
+	    Older     		    3340	angular-locale_te.js  0%  100%  
+	    Older     		    3244	angular-locale_th-th.js  0%  100%  
+	    Older     		    3241	angular-locale_th.js  0%  100%  
+	    Older     		    1251	angular-locale_tl-ph.js  0%  100%  
+	    Older     		    2220	angular-locale_tl.js  0%  100%  
+	    Older     		    2227	angular-locale_tr-tr.js  0%  100%  
+	    Older     		    2224	angular-locale_tr.js  0%  100%  
+	    Older     		    3476	angular-locale_uk-ua.js  0%  100%  
+	    Older     		    3473	angular-locale_uk.js  0%  100%  
+	    Older     		    2374	angular-locale_ur-in.js  0%  100%  
+	    Older     		    3078	angular-locale_ur-pk.js  0%  100%  
+	    Older     		    3075	angular-locale_ur.js  0%  100%  
+	    Older     		    2508	angular-locale_vi-vn.js  0%  100%  
+	    Older     		    2505	angular-locale_vi.js  0%  100%  
+	    Older     		    2410	angular-locale_zh-cn.js  0%  100%  
+	    Older     		    2415	angular-locale_zh-hans-cn.js  0%  100%  
+	    Older     		    2239	angular-locale_zh-hans-hk.js  0%  100%  
+	    Older     		    2239	angular-locale_zh-hans-mo.js  0%  100%  
+	    Older     		    2245	angular-locale_zh-hans-sg.js  0%  100%  
+	    Older     		    2201	angular-locale_zh-hans.js  0%  100%  
+	    Older     		    2228	angular-locale_zh-hant-hk.js  0%  100%  
+	    Older     		    2232	angular-locale_zh-hant-mo.js  0%  100%  
+	    Older     		    2202	angular-locale_zh-hant-tw.js  0%  100%  
+	    Older     		    2199	angular-locale_zh-hant.js  0%  100%  
+	    Older     		    2465	angular-locale_zh-hk.js  0%  100%  
+	    Older     		    2404	angular-locale_zh-tw.js  0%  100%  
+	    Older     		    2407	angular-locale_zh.js  0%  100%  
+	    Older     		    2231	angular-locale_zu-za.js  0%  100%  
+	    Older     		    2228	angular-locale_zu.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular-bootstrap\
+	    Older     		   53012	ui-bootstrap-tpls-0.10.0.min.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular-dynamic-locale\
+	    Older     		    2976	tmhDynamicLocale.min.js  0%  100%  
+	    Older     		    4024	tmhDynamicLocale.min.js.map  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\angular-local-storage\
+	    Older     		    5315	angular-local-storage.min.js  0%  100%  
+	    Older     		    6885	angular-local-storage.min.js.map  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\
+	                   7	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\css\
+	    Older     		   22057	bootstrap-responsive.css  0%  100%  
+	    Older     		   16858	bootstrap-responsive.min.css  0%  100%  
+	    Older     		  114355	bootstrap.cosmo.min.css  0%  100%  
+	    Older     		  105909	bootstrap.css  0%  100%  
+	    Older     		  102601	bootstrap.min.3.0.1.css  0%  100%  
+	    Older     		  105948	bootstrap.min.css  0%  100%  
+	    Older     		   16850	responsive.css  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\img\
+	    Older     		    8777	glyphicons-halflings-white.png  0%  100%  
+	    Older     		   12799	glyphicons-halflings.png  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\js\
+	    Older     		   64245	bootstrap.2.3.2.js  0%  100%  
+	    Older     		   28636	bootstrap.2.3.2.min.js  0%  100%  
+	                  41	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\less\
+	    Older     		     670	accordion.less  0%  100%  
+	    Older     		    1448	alerts.less  0%  100%  
+	    Older     		    1552	bootstrap.less  0%  100%  
+	    Older     		     455	breadcrumbs.less  0%  100%  
+	    Older     		    5938	button-groups.less  0%  100%  
+	    Older     		    4994	buttons.less  0%  100%  
+	    Older     		    2640	carousel.less  0%  100%  
+	    Older     		     675	close.less  0%  100%  
+	    Older     		    1352	code.less  0%  100%  
+	    Older     		     328	component-animations.less  0%  100%  
+	    Older     		    5730	dropdowns.less  0%  100%  
+	    Older     		   16554	forms.less  0%  100%  
+	    Older     		     450	grid.less  0%  100%  
+	    Older     		     546	hero-unit.less  0%  100%  
+	    Older     		    1968	labels-badges.less  0%  100%  
+	    Older     		     344	layouts.less  0%  100%  
+	    Older     		     915	media.less  0%  100%  
+	    Older     		   23744	mixins.less  0%  100%  
+	    Older     		    2073	modals.less  0%  100%  
+	    Older     		   12547	navbar.less  0%  100%  
+	    Older     		    8572	navs.less  0%  100%  
+	    Older     		     802	pager.less  0%  100%  
+	    Older     		    2801	pagination.less  0%  100%  
+	    Older     		    3210	popovers.less  0%  100%  
+	    Older     		    2980	progress-bars.less  0%  100%  
+	    Older     		    4417	reset.less  0%  100%  
+	    Older     		     593	responsive-1200px-min.less  0%  100%  
+	    Older     		    4113	responsive-767px-max.less  0%  100%  
+	    Older     		     482	responsive-768px-979px.less  0%  100%  
+	    Older     		    4517	responsive-navbar.less  0%  100%  
+	    Older     		    1661	responsive-utilities.less  0%  100%  
+	    Older     		    1117	responsive.less  0%  100%  
+	    Older     		     938	scaffolding.less  0%  100%  
+	    Older     		   11038	sprites.less  0%  100%  
+	    Older     		    6499	tables.less  0%  100%  
+	    Older     		    1289	thumbnails.less  0%  100%  
+	    Older     		    1754	tooltip.less  0%  100%  
+	    Older     		    5104	type.less  0%  100%  
+	    Older     		     365	utilities.less  0%  100%  
+	    Older     		    9443	variables.less  0%  100%  
+	    Older     		     581	wells.less  0%  100%  
+	                   8	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap\less\tests\
+	    Older     		    6550	buttons.html  0%  100%  
+	    Older     		    5625	css-tests.css  0%  100%  
+	    Older     		   41537	css-tests.html  0%  100%  
+	    Older     		    2433	forms-responsive.html  0%  100%  
+	    Older     		    4258	forms.html  0%  100%  
+	    Older     		    4796	navbar-fixed-top.html  0%  100%  
+	    Older     		    4818	navbar-static-top.html  0%  100%  
+	    Older     		    4904	navbar.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap-social\
+	    Older     		   20453	bootstrap-social.css  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\bootstrap-tabdrop\
+	    Older     		    3811	bootstrap-tabdrop.js  0%  100%  
+	    Older     		    1552	README.md  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\clipboard\
+	    Older     		   10917	clipboard.min.js  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\addon\
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\addon\dialog\
+	    Older     		     507	dialog.css  0%  100%  
+	    Older     		    4938	dialog.js  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\addon\edit\
+	    Older     		    6498	closebrackets.js  0%  100%  
+	    Older     		    7590	closetag.js  0%  100%  
+	    Older     		    1750	continuelist.js  0%  100%  
+	    Older     		    5254	matchbrackets.js  0%  100%  
+	    Older     		    2355	matchtags.js  0%  100%  
+	    Older     		    1003	trailingspace.js  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\addon\search\
+	    Older     		    4943	match-highlighter.js  0%  100%  
+	    Older     		     188	matchesonscrollbar.css  0%  100%  
+	    Older     		    3808	matchesonscrollbar.js  0%  100%  
+	    Older     		    7294	search.js  0%  100%  
+	    Older     		    7723	searchcursor.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\addon\selection\
+	    Older     		    2442	active-line.js  0%  100%  
+	    Older     		    3781	mark-selection.js  0%  100%  
+	    Older     		    3292	selection-pointer.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\lib\
+	    Older     		    7771	codemirror.css  0%  100%  
+	    Older     		  347063	codemirror.js  0%   37%   75%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\css\
+	    Older     		   34123	css.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\htmlmixed\
+	    Older     		    5001	htmlmixed.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\javascript\
+	    Older     		   26636	javascript.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\razor\
+	    Older     		   22778	index.html  0%  100%  
+	    Older     		    1172	LICENSE  0%  100%  
+	    Older     		    9631	razor.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\codemirror\mode\xml\
+	    Older     		   12375	xml.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\cssparser\
+	    Older     		  181181	cssparser.js  0%   72%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\datetimepicker\
+	    Older     		   60823	bootstrap-datetimepicker.js  0%  100%  
+	    Older     		    5062	bootstrap-datetimepicker.min.css  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\font-awesome\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\font-awesome\css\
+	    Older     		   21984	font-awesome.min.css  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\font-awesome\fonts\
+	    Older     		   56006	fontawesome-webfont.eot  0%  100%  
+	    Older     		  287007	fontawesome-webfont.svg  0%   45%   91%  100%  
+	    Older     		  112160	fontawesome-webfont.ttf  0%  100%  
+	    Older     		   65452	fontawesome-webfont.woff  0%  100%  
+	    Older     		   85908	FontAwesome.otf  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\jquery\
+	    Older     		   85578	jquery.min.js  0%  100%  
+	    Older     		  129572	jquery.min.map  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\jquery-migrate\
+	    Older     		    9632	jquery-migrate.min.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\jquery-ui\
+	    Older     		   27250	jquery-ui-1.10.4.custom.min.css  0%  100%  
+	    Older     		  240427	jquery-ui.min.js  0%   54%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\jquery-ui-touch-punch\
+	    Older     		    4967	jquery.ui.touch-punch.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\less\
+	    Older     		  101869	less-1.7.0.min.js  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\markdown\
+	    Older     		   46407	markdown.converter.js  0%  100%  
+	    Older     		    1655	markdown.css  0%  100%  
+	    Older     		   78543	markdown.editor.js  0%  100%  
+	    Older     		    4185	markdown.sanitizer.js  0%  100%  
+	    Older     		      95	red.css  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\moment\
+	    Older     		  370101	moment-with-locales.js  0%   35%   70%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\ng-file-upload\
+	    Older     		   23766	ng-file-upload.min.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\rgrove-lazyload\
+	    Older     		   13187	lazyload.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\slider\
+	    Older     		    2285	bootstrap-slider-custom.css  0%  100%  
+	    Older     		    8493	bootstrap-slider.css  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\slider\js\
+	    Older     		   51451	bootstrap-slider.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\spectrum\
+	    Older     		   15122	spectrum.css  0%  100%  
+	    Older     		   40684	spectrum.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\
+	    Older     		  405216	tinymce.min.js  0%   32%   64%   97%  100%  
+	                  16	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\langs\
+	    Older     		    7730	da.js  0%  100%  
+	    Older     		    8497	de.js  0%  100%  
+	    Older     		    6515	en.js  0%  100%  
+	    Older     		    6518	en_us.js  0%  100%  
+	    Older     		    8360	fi.js  0%  100%  
+	    Older     		    7765	fr.js  0%  100%  
+	    Older     		   15279	he.js  0%  100%  
+	    Older     		    7815	it.js  0%  100%  
+	    Older     		   12507	ja.js  0%  100%  
+	    Older     		    7452	nl.js  0%  100%  
+	    Older     		    6958	no.js  0%  100%  
+	    Older     		    8362	pl.js  0%  100%  
+	    Older     		    7053	pt.js  0%  100%  
+	    Older     		   22507	ru.js  0%  100%  
+	    Older     		    6966	sv.js  0%  100%  
+	    Older     		    8432	zh.js  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\advlist\
+	    Older     		     205	index.js  0%  100%  
+	    Older     		    3888	plugin.js  0%  100%  
+	    Older     		    2091	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\anchor\
+	    Older     		     202	index.js  0%  100%  
+	    Older     		    2259	plugin.js  0%  100%  
+	    Older     		    1188	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\autolink\
+	    Older     		     208	index.js  0%  100%  
+	    Older     		    5137	plugin.js  0%  100%  
+	    Older     		    2060	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\autoresize\
+	    Older     		     214	index.js  0%  100%  
+	    Older     		    4990	plugin.js  0%  100%  
+	    Older     		    1903	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\autosave\
+	    Older     		     208	index.js  0%  100%  
+	    Older     		    4159	plugin.js  0%  100%  
+	    Older     		    2187	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\bbcode\
+	    Older     		     202	index.js  0%  100%  
+	    Older     		    4223	plugin.js  0%  100%  
+	    Older     		    3136	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\charmap\
+	    Older     		     205	index.js  0%  100%  
+	    Older     		   11537	plugin.js  0%  100%  
+	    Older     		    8199	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\code\
+	    Older     		     196	index.js  0%  100%  
+	    Older     		    1569	plugin.js  0%  100%  
+	    Older     		     721	plugin.min.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\
+	    Older     		    1141	plugin.min.js  0%  100%  
+	    Older     		    7671	source.html  0%  100%  
+	                  16	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\langs\
+	    Older     		     224	da.js  0%  100%  
+	    Older     		     224	de.js  0%  100%  
+	    Older     		     224	en.js  0%  100%  
+	    Older     		     224	en_us.js  0%  100%  
+	    Older     		     224	fi.js  0%  100%  
+	    Older     		     224	fr.js  0%  100%  
+	    Older     		     224	he.js  0%  100%  
+	    Older     		     224	it.js  0%  100%  
+	    Older     		     224	ja.js  0%  100%  
+	    Older     		     224	nl.js  0%  100%  
+	    Older     		     224	no.js  0%  100%  
+	    Older     		     224	pl.js  0%  100%  
+	    Older     		     224	pt.js  0%  100%  
+	    Older     		     224	ru.js  0%  100%  
+	    Older     		     224	sv.js  0%  100%  
+	    Older     		     224	zh.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\
+	    Older     		     214	index.js  0%  100%  
+	    Older     		   34938	plugin.js  0%  100%  
+	    Older     		   20332	plugin.min.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\codesample\css\
+	    Older     		    2289	prism.css  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\colorpicker\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    2450	plugin.js  0%  100%  
+	    Older     		    1222	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\contextmenu\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    2659	plugin.js  0%  100%  
+	    Older     		    1131	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\directionality\
+	    Older     		     226	index.js  0%  100%  
+	    Older     		    1465	plugin.js  0%  100%  
+	    Older     		     726	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\
+	    Older     		     211	index.js  0%  100%  
+	    Older     		    1615	plugin.js  0%  100%  
+	    Older     		     911	plugin.min.js  0%  100%  
+	                  16	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\img\
+	    Older     		     354	smiley-cool.gif  0%  100%  
+	    Older     		     329	smiley-cry.gif  0%  100%  
+	    Older     		     331	smiley-embarassed.gif  0%  100%  
+	    Older     		     342	smiley-foot-in-mouth.gif  0%  100%  
+	    Older     		     340	smiley-frown.gif  0%  100%  
+	    Older     		     336	smiley-innocent.gif  0%  100%  
+	    Older     		     338	smiley-kiss.gif  0%  100%  
+	    Older     		     343	smiley-laughing.gif  0%  100%  
+	    Older     		     321	smiley-money-mouth.gif  0%  100%  
+	    Older     		     323	smiley-sealed.gif  0%  100%  
+	    Older     		     344	smiley-smile.gif  0%  100%  
+	    Older     		     338	smiley-surprised.gif  0%  100%  
+	    Older     		     328	smiley-tongue-out.gif  0%  100%  
+	    Older     		     337	smiley-undecided.gif  0%  100%  
+	    Older     		     350	smiley-wink.gif  0%  100%  
+	    Older     		     336	smiley-yell.gif  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullpage\
+	    Older     		     208	index.js  0%  100%  
+	    Older     		   12277	plugin.js  0%  100%  
+	    Older     		    6308	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullscreen\
+	    Older     		     214	index.js  0%  100%  
+	    Older     		    3587	plugin.js  0%  100%  
+	    Older     		    1675	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\hr\
+	    Older     		     190	index.js  0%  100%  
+	    Older     		     648	plugin.js  0%  100%  
+	    Older     		     322	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\image\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		   16015	plugin.js  0%  100%  
+	    Older     		    8204	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\imagetools\
+	    Older     		     214	index.js  0%  100%  
+	    Older     		   75753	plugin.js  0%  100%  
+	    Older     		   30906	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\importcss\
+	    Older     		     211	index.js  0%  100%  
+	    Older     		    7241	plugin.js  0%  100%  
+	    Older     		    2747	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\insertdatetime\
+	    Older     		     226	index.js  0%  100%  
+	    Older     		    3484	plugin.js  0%  100%  
+	    Older     		    1971	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\legacyoutput\
+	    Older     		     220	index.js  0%  100%  
+	    Older     		    6332	plugin.js  0%  100%  
+	    Older     		    3263	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\link\
+	    Older     		     196	index.js  0%  100%  
+	    Older     		   14355	plugin.js  0%  100%  
+	    Older     		    6994	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\lists\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		   37046	plugin.js  0%  100%  
+	    Older     		   14635	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\media\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		   35729	plugin.js  0%  100%  
+	    Older     		   16452	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\nonbreaking\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    1210	plugin.js  0%  100%  
+	    Older     		     655	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\noneditable\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    3137	plugin.js  0%  100%  
+	    Older     		    1270	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\pagebreak\
+	    Older     		     211	index.js  0%  100%  
+	    Older     		    2400	plugin.js  0%  100%  
+	    Older     		    1230	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\paste\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		   53343	plugin.js  0%  100%  
+	    Older     		   18068	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\preview\
+	    Older     		     205	index.js  0%  100%  
+	    Older     		    2999	plugin.js  0%  100%  
+	    Older     		    1602	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\print\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		     624	plugin.js  0%  100%  
+	    Older     		     293	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\save\
+	    Older     		     196	index.js  0%  100%  
+	    Older     		    2065	plugin.js  0%  100%  
+	    Older     		    1150	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\searchreplace\
+	    Older     		     223	index.js  0%  100%  
+	    Older     		   15562	plugin.js  0%  100%  
+	    Older     		    6493	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\spellchecker\
+	    Older     		     220	index.js  0%  100%  
+	    Older     		   26505	plugin.js  0%  100%  
+	    Older     		   10048	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\tabfocus\
+	    Older     		     208	index.js  0%  100%  
+	    Older     		    2505	plugin.js  0%  100%  
+	    Older     		    1264	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\table\
+	    Older     		     199	index.js  0%  100%  
+	    Older     		  114941	plugin.js  0%  100%  
+	    Older     		   47126	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\template\
+	    Older     		     208	index.js  0%  100%  
+	    Older     		    7692	plugin.js  0%  100%  
+	    Older     		    4520	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\textcolor\
+	    Older     		     211	index.js  0%  100%  
+	    Older     		    7189	plugin.js  0%  100%  
+	    Older     		    4145	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\textpattern\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    6783	plugin.js  0%  100%  
+	    Older     		    2745	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\toc\
+	    Older     		     193	index.js  0%  100%  
+	    Older     		    6359	plugin.js  0%  100%  
+	    Older     		    2771	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\
+	    Older     		     220	index.js  0%  100%  
+	    Older     		    2139	plugin.js  0%  100%  
+	    Older     		    1153	plugin.min.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	    Older     		    5092	visualblocks.css  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualchars\
+	    Older     		     217	index.js  0%  100%  
+	    Older     		    2589	plugin.js  0%  100%  
+	    Older     		    1178	plugin.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\plugins\wordcount\
+	    Older     		     211	index.js  0%  100%  
+	    Older     		   21184	plugin.js  0%  100%  
+	    Older     		   12030	plugin.min.js  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\skins\
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\
+	    Older     		    2389	content.min.css  0%  100%  
+	    Older     		   30624	skin.classic.min.css  0%  100%  
+	    Older     		   30481	skin.ie7.min.css  0%  100%  
+	    Older     		   31598	skin.min.css  0%  100%  
+	                   9	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	    Older     		      68	readme.md  0%  100%  
+	    Older     		    9492	tinymce-small.eot  0%  100%  
+	    Older     		   24789	tinymce-small.svg  0%  100%  
+	    Older     		    9304	tinymce-small.ttf  0%  100%  
+	    Older     		    9380	tinymce-small.woff  0%  100%  
+	    Older     		   17572	tinymce.eot  0%  100%  
+	    Older     		   46121	tinymce.svg  0%  100%  
+	    Older     		   17408	tinymce.ttf  0%  100%  
+	    Older     		   17484	tinymce.woff  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\img\
+	    Older     		      53	anchor.gif  0%  100%  
+	    Older     		    2608	loader.gif  0%  100%  
+	    Older     		     152	object.gif  0%  100%  
+	    Older     		      43	trans.gif  0%  100%  
+	    Older     		      46	wline.gif  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\themes\
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\themes\inlite\
+	    Older     		     198	index.js  0%  100%  
+	    Older     		   45788	theme.js  0%  100%  
+	    Older     		   16578	theme.min.js  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\themes\modern\
+	    Older     		     198	index.js  0%  100%  
+	    Older     		   33903	theme.js  0%  100%  
+	    Older     		   13154	theme.min.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\tinymce\themes\umbraco\
+	    Older     		    4762	theme.min.js  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\typeahead.js\
+	    Older     		   29675	typeahead.bundle.min.js  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\umbraco\
+	    Older     		    1223	compat.js  0%  100%  
+	    Older     		   11361	Extensions.js  0%  100%  
+	    Older     		    2435	LegacySpeechBubble.js  0%  100%  
+	    Older     		   19015	LegacyUmbClientMgr.js  0%  100%  
+	    Older     		     836	NamespaceManager.js  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\lib\underscore\
+	    Older     		   15626	underscore-min.js  0%  100%  
+	    Older     		   25382	underscore-min.map  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Masterpages\
+	    Older     		     234	default.Master  0%  100%  
+	    Older     		    1767	umbracoDialog.Master  0%  100%  
+	    Older     		    2281	umbracoPage.Master  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Members\
+	    Older     		    1010	EditMemberGroup.aspx  0%  100%  
+	    Older     		    1838	MemberSearch.ascx  0%  100%  
+	    Older     		     798	search.aspx  0%  100%  
+	    Older     		    1913	ViewMembers.aspx  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\PartialViewMacros\
+	                  20	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\PartialViewMacros\Templates\
+	    Older     		     931	Breadcrumb.cshtml  0%  100%  
+	    Older     		    2658	EditProfile.cshtml  0%  100%  
+	    Older     		      53	Empty (ForUseWithCustomViews).cshtml  0%  100%  
+	    Older     		      49	Empty.cshtml  0%  100%  
+	    Older     		    1617	Gallery.cshtml  0%  100%  
+	    Older     		     903	ListAncestorsFromCurrentPage.cshtml  0%  100%  
+	    Older     		    1005	ListChildPagesFromChangeableSource.cshtml  0%  100%  
+	    Older     		     629	ListChildPagesFromCurrentPage.cshtml  0%  100%  
+	    Older     		     759	ListChildPagesOrderedByDate.cshtml  0%  100%  
+	    Older     		     719	ListChildPagesOrderedByName.cshtml  0%  100%  
+	    Older     		    1025	ListChildPagesOrderedByProperty.cshtml  0%  100%  
+	    Older     		     687	ListChildPagesWithDoctype.cshtml  0%  100%  
+	    Older     		    2337	ListDescendantsFromCurrentPage.cshtml  0%  100%  
+	    Older     		    1032	ListImagesFromMediaFolder.cshtml  0%  100%  
+	    Older     		    1310	Login.cshtml  0%  100%  
+	    Older     		    1402	LoginStatus.cshtml  0%  100%  
+	    Older     		     779	MultinodeTree-picker.cshtml  0%  100%  
+	    Older     		     717	Navigation.cshtml  0%  100%  
+	    Older     		    4538	RegisterMember.cshtml  0%  100%  
+	    Older     		    1335	SiteMap.cshtml  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Plugins\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Plugins\Tinymce3\
+	    Older     		     171	tinymce3tinymceCompress.aspx  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\preview\
+	    Older     		    8443	index.html  0%  100%  
+	                  11	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\preview\editors\
+	    Older     		    2504	background.html  0%  100%  
+	    Older     		     980	border.html  0%  100%  
+	    Older     		      90	color.html  0%  100%  
+	    Older     		    1518	googlefontpicker.html  0%  100%  
+	    Older     		     199	gridRow.html  0%  100%  
+	    Older     		     339	layout.html  0%  100%  
+	    Older     		     463	margin.html  0%  100%  
+	    Older     		     471	padding.html  0%  100%  
+	    Older     		     897	radius.html  0%  100%  
+	    Older     		     195	shadow.html  0%  100%  
+	    Older     		     215	slider.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Search\
+	    Older     		    1100	QuickSearch.ascx  0%  100%  
+	    Older     		    3887	quickSearch.js  0%  100%  
+	    Older     		     139	QuickSearchHandler.ashx  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Settings\
+	    Older     		     688	DictionaryItemList.aspx  0%  100%  
+	    Older     		     726	EditDictionaryItem.aspx  0%  100%  
+	    Older     		     899	editLanguage.aspx  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Settings\Modals\
+	    Older     		    3355	ShowUmbracoTags.aspx  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Settings\Stylesheet\
+	    Older     		    2484	editstylesheet.aspx  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Settings\Stylesheet\Property\
+	    Older     		    2723	EditStyleSheetProperty.aspx  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Translation\
+	    Older     		    2597	default.aspx  0%  100%  
+	    Older     		    1856	details.aspx  0%  100%  
+	    Older     		    1325	preview.aspx  0%  100%  
+	    Older     		    1007	translationTasks.dtd  0%  100%  
+	    Older     		     220	xml.aspx  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\
+	    Older     		    2710	AuthorizeUpgrade.cshtml  0%  100%  
+	    Older     		    3268	Default.cshtml  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\
+	    Older     		    1588	dashboard.html  0%  100%  
+	    Older     		     198	legacy.html  0%  100%  
+	    Older     		      59	login.html  0%  100%  
+	                  15	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\dialogs\
+	    Older     		     352	approvedcolorpicker.html  0%  100%  
+	    Older     		    2481	help.html  0%  100%  
+	    Older     		    2387	iconpicker.html  0%  100%  
+	    Older     		    2109	insertmacro.html  0%  100%  
+	    Older     		     461	legacydelete.html  0%  100%  
+	    Older     		    2787	linkpicker.html  0%  100%  
+	    Older     		   12586	login.html  0%  100%  
+	    Older     		    1324	macropicker.html  0%  100%  
+	    Older     		    6277	mediapicker.html  0%  100%  
+	    Older     		    1172	membergrouppicker.html  0%  100%  
+	    Older     		      24	property.html  0%  100%  
+	    Older     		    1912	rteembed.html  0%  100%  
+	    Older     		    2450	treepicker.html  0%  100%  
+	    Older     		    4788	user.html  0%  100%  
+	    Older     		     978	ysod.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\dialogs\content\
+	    Older     		    2803	edit.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\dialogs\template\
+	    Older     		    5005	querybuilder.html  0%  100%  
+	    Older     		    1556	snippet.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\notifications\
+	    Older     		     577	confirmroutechange.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contentpicker\
+	    Older     		    1670	contentpicker.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\compositions\
+	    Older     		    2729	compositions.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorpicker\
+	    Older     		    4040	editorpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorsettings\
+	    Older     		     892	editorsettings.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\propertysettings\
+	    Older     		    4705	propertysettings.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\copy\
+	    Older     		    1975	copy.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\embed\
+	    Older     		    1202	embed.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\help\
+	    Older     		    2432	help.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\iconpicker\
+	    Older     		    2213	iconpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\insert\
+	    Older     		    2426	insert.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\insertfield\
+	    Older     		    9842	insertfield.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\itempicker\
+	    Older     		     927	itempicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\linkpicker\
+	    Older     		    3159	linkpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\macropicker\
+	    Older     		    2214	macropicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\mediaPicker\
+	    Older     		    5344	mediapicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\mediatypepicker\
+	    Older     		     459	mediatypepicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\membergrouppicker\
+	    Older     		     317	membergrouppicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\memberpicker\
+	    Older     		    1669	memberpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\move\
+	    Older     		    1443	move.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\nodepermissions\
+	    Older     		     484	nodepermissions.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\querybuilder\
+	    Older     		    4367	querybuilder.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\sectionpicker\
+	    Older     		     802	sectionpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\templatesections\
+	    Older     		    3030	templatesections.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\treepicker\
+	    Older     		    1914	treepicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\user\
+	    Older     		    4299	user.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\usergrouppicker\
+	    Older     		    3086	usergrouppicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\userpicker\
+	    Older     		    2317	userpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\common\overlays\ysod\
+	    Older     		    1081	ysod.html  0%  100%  
+	                  29	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\
+	    Older     		     330	umb-avatar.html  0%  100%  
+	    Older     		      86	umb-badge.html  0%  100%  
+	    Older     		     111	umb-checkmark.html  0%  100%  
+	    Older     		    1623	umb-child-selector.html  0%  100%  
+	    Older     		     570	umb-confirm-action.html  0%  100%  
+	    Older     		     433	umb-confirm.html  0%  100%  
+	    Older     		    1409	umb-content-grid.html  0%  100%  
+	    Older     		     243	umb-date-time-picker.html  0%  100%  
+	    Older     		      23	umb-dropdown-item.html  0%  100%  
+	    Older     		      75	umb-dropdown.html  0%  100%  
+	    Older     		     204	umb-empty-state.html  0%  100%  
+	    Older     		     620	umb-folder-grid.html  0%  100%  
+	    Older     		     309	umb-generate-alias.html  0%  100%  
+	    Older     		    2501	umb-grid-selector.html  0%  100%  
+	    Older     		   17400	umb-groups-builder.html  0%  100%  
+	    Older     		    2298	umb-keyboard-shortcuts-overview.html  0%  100%  
+	    Older     		     712	umb-layout-selector.html  0%  100%  
+	    Older     		     918	umb-lightbox.html  0%  100%  
+	    Older     		      77	umb-list-view-layout.html  0%  100%  
+	    Older     		    2227	umb-list-view-settings.html  0%  100%  
+	    Older     		     206	umb-load-indicator.html  0%  100%  
+	    Older     		    1570	umb-locked-field.html  0%  100%  
+	    Older     		    1958	umb-media-grid.html  0%  100%  
+	    Older     		    5012	umb-mini-list-view.html  0%  100%  
+	    Older     		    1358	umb-node-preview.html  0%  100%  
+	    Older     		     863	umb-pagination.html  0%  100%  
+	    Older     		     152	umb-progress-bar.html  0%  100%  
+	    Older     		    3292	umb-table.html  0%  100%  
+	    Older     		      87	umb-tooltip.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\application\
+	    Older     		     579	umb-contextmenu.html  0%  100%  
+	    Older     		    4328	umb-navigation.html  0%  100%  
+	    Older     		    2704	umb-sections.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\buttons\
+	    Older     		    1122	umb-button-group.html  0%  100%  
+	    Older     		    2042	umb-button.html  0%  100%  
+	    Older     		    1091	umb-toggle.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\content\
+	    Older     		    2449	edit.html  0%  100%  
+	                  10	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\editor\
+	    Older     		     794	umb-breadcrumbs.html  0%  100%  
+	    Older     		     268	umb-editor-container.html  0%  100%  
+	    Older     		      72	umb-editor-footer-content-left.html  0%  100%  
+	    Older     		      73	umb-editor-footer-content-right.html  0%  100%  
+	    Older     		     134	umb-editor-footer.html  0%  100%  
+	    Older     		    3591	umb-editor-header.html  0%  100%  
+	    Older     		     870	umb-editor-menu.html  0%  100%  
+	    Older     		     523	umb-editor-navigation.html  0%  100%  
+	    Older     		     291	umb-editor-sub-views.html  0%  100%  
+	    Older     		     140	umb-editor-view.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\editor\subheader\
+	    Older     		      71	umb-editor-sub-header-content-left.html  0%  100%  
+	    Older     		      72	umb-editor-sub-header-content-right.html  0%  100%  
+	    Older     		      66	umb-editor-sub-header-section.html  0%  100%  
+	    Older     		     135	umb-editor-sub-header.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\html\
+	    Older     		     660	umb-control-group.html  0%  100%  
+	    Older     		      47	umb-pane.html  0%  100%  
+	    Older     		      58	umb-panel.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\html\umb-box\
+	    Older     		      49	umb-box-content.html  0%  100%  
+	    Older     		     474	umb-box-header.html  0%  100%  
+	    Older     		      41	umb-box.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\imaging\
+	    Older     		     571	umb-image-crop.html  0%  100%  
+	    Older     		     323	umb-image-gravity.html  0%  100%  
+	    Older     		     230	umb-image-thumbnail.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\notifications\
+	    Older     		     965	umb-notifications.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\overlays\
+	    Older     		      95	umb-overlay-backdrop.html  0%  100%  
+	    Older     		    3368	umb-overlay.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\property\
+	    Older     		     131	umb-property-editor.html  0%  100%  
+	    Older     		       0	umb-property-group.html100%  
+	    Older     		     880	umb-property.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\tabs\
+	    Older     		     130	umb-tab.html  0%  100%  
+	    Older     		      85	umb-tabs-content.html  0%  100%  
+	    Older     		     215	umb-tabs-nav.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\tree\
+	    Older     		     599	umb-tree-search-box.html  0%  100%  
+	    Older     		     892	umb-tree-search-results.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\upload\
+	    Older     		    3715	umb-file-dropzone.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\components\users\
+	    Older     		    4183	change-password.html  0%  100%  
+	    Older     		     365	umb-permission.html  0%  100%  
+	    Older     		    2380	umb-user-group-preview.html  0%  100%  
+	    Older     		     700	umb-user-preview.html  0%  100%  
+	                  11	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\content\
+	    Older     		    3852	copy.html  0%  100%  
+	    Older     		    2209	create.html  0%  100%  
+	    Older     		    1761	createblueprint.html  0%  100%  
+	    Older     		     463	delete.html  0%  100%  
+	    Older     		     438	edit.html  0%  100%  
+	    Older     		     704	emptyrecyclebin.html  0%  100%  
+	    Older     		    3403	move.html  0%  100%  
+	    Older     		     522	recyclebin.html  0%  100%  
+	    Older     		     977	restore.html  0%  100%  
+	    Older     		    6356	rights.html  0%  100%  
+	    Older     		     206	umbpreview.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\contentblueprints\
+	    Older     		    1551	create.html  0%  100%  
+	    Older     		     441	delete.html  0%  100%  
+	    Older     		     372	edit.html  0%  100%  
+	    Older     		    1857	intro.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\
+	    Older     		     587	ChangePassword.html  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\default\
+	    Older     		   25651	ourumbraco.jpg  0%  100%  
+	    Older     		    3498	StartupDashboardIntro.html  0%  100%  
+	    Older     		    1365	StartupDashboardKits.html  0%  100%  
+	    Older     		       0	StartupDashboardLastEdits.html100%  
+	    Older     		     828	StartupDashboardVideos.html  0%  100%  
+	    Older     		   49817	umbracotv.jpg  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\developer\
+	    Older     		    1251	developerdashboardintro.html  0%  100%  
+	    Older     		    1059	developerdashboardvideos.html  0%  100%  
+	    Older     		   17956	examinemanagement.html  0%  100%  
+	    Older     		    7081	healthcheck.html  0%  100%  
+	    Older     		    5251	redirecturls.html  0%  100%  
+	    Older     		    1309	xmldataintegrityreport.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\forms\
+	    Older     		    1667	formsdashboardintro.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\media\
+	    Older     		    1838	desktopmediauploader.html  0%  100%  
+	    Older     		     917	mediadashboardintro.html  0%  100%  
+	    Older     		     829	mediadashboardvideos.html  0%  100%  
+	    Older     		     157	mediafolderbrowser.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\members\
+	    Older     		     394	membersdashboardintro.html  0%  100%  
+	    Older     		     813	membersdashboardvideos.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\dashboard\settings\
+	    Older     		    1321	settingsdashboardintro.html  0%  100%  
+	    Older     		     829	settingsdashboardvideos.html  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\datatypes\
+	    Older     		    1926	create.html  0%  100%  
+	    Older     		    1612	delete.html  0%  100%  
+	    Older     		    2104	edit.html  0%  100%  
+	    Older     		    2135	move.html  0%  100%  
+	    Older     		     966	rename.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\directives\
+	                   8	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\directives\_obsolete\
+	    Older     		     738	umb-content-name.html  0%  100%  
+	    Older     		     406	umb-header.html  0%  100%  
+	    Older     		    1472	umb-item-sorter.html  0%  100%  
+	    Older     		     572	umb-login.html  0%  100%  
+	    Older     		     832	umb-optionsmenu.html  0%  100%  
+	    Older     		    1080	umb-photo-folder.html  0%  100%  
+	    Older     		     147	umb-tab-view.html  0%  100%  
+	    Older     		     239	umb-upload-dropzone.html  0%  100%  
+	                   8	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\
+	    Older     		    2194	copy.html  0%  100%  
+	    Older     		    2405	create.html  0%  100%  
+	    Older     		    1710	delete.html  0%  100%  
+	    Older     		    2425	edit.html  0%  100%  
+	    Older     		    2192	move.html  0%  100%  
+	    Older     		     148	property.html  0%  100%  
+	    Older     		       0	propertygroup.html100%  
+	    Older     		     973	rename.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\views\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\views\design\
+	    Older     		      95	design.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\views\listview\
+	    Older     		     553	listview.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\views\permissions\
+	    Older     		    1680	permissions.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\documenttypes\views\templates\
+	    Older     		     845	templates.html  0%  100%  
+	                   9	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\install\
+	    Older     		     401	continueinstall.html  0%  100%  
+	    Older     		    4724	database.html  0%  100%  
+	    Older     		     329	error.html  0%  100%  
+	    Older     		    1104	machinekey.html  0%  100%  
+	    Older     		    1006	permissionsreport.html  0%  100%  
+	    Older     		     914	starterkit.html  0%  100%  
+	    Older     		     885	upgrade.html  0%  100%  
+	    Older     		    2920	user.html  0%  100%  
+	    Older     		    1015	version7upgradereport.html  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\media\
+	    Older     		    1638	create.html  0%  100%  
+	    Older     		     445	delete.html  0%  100%  
+	    Older     		    2134	edit.html  0%  100%  
+	    Older     		     714	emptyrecyclebin.html  0%  100%  
+	    Older     		    1769	move.html  0%  100%  
+	    Older     		     522	recyclebin.html  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\mediatypes\
+	    Older     		    2188	copy.html  0%  100%  
+	    Older     		    1947	create.html  0%  100%  
+	    Older     		    1649	delete.html  0%  100%  
+	    Older     		    2421	edit.html  0%  100%  
+	    Older     		    2170	move.html  0%  100%  
+	    Older     		     966	rename.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\mediatypes\views\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\mediatypes\views\design\
+	    Older     		      92	design.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\mediatypes\views\listview\
+	    Older     		     550	listview.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\mediatypes\views\permissions\
+	    Older     		    1679	permissions.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\member\
+	    Older     		    1009	create.html  0%  100%  
+	    Older     		     459	delete.html  0%  100%  
+	    Older     		    2040	edit.html  0%  100%  
+	    Older     		    1094	list.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\membertypes\
+	    Older     		    1918	create.html  0%  100%  
+	    Older     		    1127	delete.html  0%  100%  
+	    Older     		    2380	edit.html  0%  100%  
+	    Older     		     362	move.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\membertypes\views\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\membertypes\views\design\
+	    Older     		     121	design.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\packager\
+	    Older     		     454	delete.html  0%  100%  
+	    Older     		     783	overview.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\packager\views\
+	    Older     		    9227	install-local.html  0%  100%  
+	    Older     		    6122	installed.html  0%  100%  
+	    Older     		   20878	repo.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\partialviewmacros\
+	    Older     		    3986	create.html  0%  100%  
+	    Older     		     442	delete.html  0%  100%  
+	    Older     		    4413	edit.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\partialviews\
+	    Older     		    3494	create.html  0%  100%  
+	    Older     		     437	delete.html  0%  100%  
+	    Older     		    4788	edit.html  0%  100%  
+	                  16	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\prevalueeditors\
+	    Older     		     101	boolean.html  0%  100%  
+	    Older     		     437	decimal.html  0%  100%  
+	    Older     		      84	hidden.html  0%  100%  
+	    Older     		     721	imagepicker.html  0%  100%  
+	    Older     		     876	mediapicker.html  0%  100%  
+	    Older     		     682	multivalues.html  0%  100%  
+	    Older     		     166	nodetype.html  0%  100%  
+	    Older     		     434	number.html  0%  100%  
+	    Older     		     261	radiobuttonlist.html  0%  100%  
+	    Older     		     222	readonlykeyvalues.html  0%  100%  
+	    Older     		     411	requiredfield.html  0%  100%  
+	    Older     		     101	textarea.html  0%  100%  
+	    Older     		      94	textstring.html  0%  100%  
+	    Older     		     866	treepicker.html  0%  100%  
+	    Older     		    2942	treesource.html  0%  100%  
+	    Older     		     270	valuetype.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\boolean\
+	    Older     		     187	boolean.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\changepassword\
+	    Older     		     230	changepassword.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\checkboxlist\
+	    Older     		     465	checkboxlist.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\colorpicker\
+	    Older     		     592	colorpicker.html  0%  100%  
+	    Older     		     740	colorpicker.prevalues.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\contentpicker\
+	    Older     		    2062	contentpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\datepicker\
+	    Older     		    1866	datepicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\decimal\
+	    Older     		     645	decimal.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\dropdown\
+	    Older     		     782	dropdown.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\email\
+	    Older     		     699	email.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\entitypicker\
+	    Older     		     661	entitypicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\fileupload\
+	    Older     		    1716	fileupload.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\folderbrowser\
+	    Older     		     149	folderbrowser.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\googlemaps\
+	    Older     		     182	googlemaps.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\grid\
+	    Older     		   16398	grid.html  0%  100%  
+	    Older     		    7114	grid.prevalues.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\grid\config\
+	    Older     		    7328	grid.default.config.js  0%  100%  
+	    Older     		     265	grid.default.rtestyles.css  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\grid\dialogs\
+	    Older     		     485	config.html  0%  100%  
+	    Older     		     472	editconfig.html  0%  100%  
+	    Older     		    4915	layoutconfig.html  0%  100%  
+	    Older     		    4144	rowconfig.html  0%  100%  
+	    Older     		     432	rowdeleteconfirm.html  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\grid\editors\
+	    Older     		     519	embed.html  0%  100%  
+	    Older     		     114	error.html  0%  100%  
+	    Older     		     603	macro.html  0%  100%  
+	    Older     		     799	media.html  0%  100%  
+	    Older     		    1042	rte.html  0%  100%  
+	    Older     		     302	textstring.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\imagecropper\
+	    Older     		    3113	imagecropper.html  0%  100%  
+	    Older     		    2373	imagecropper.prevalues.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\integer\
+	    Older     		     663	integer.html  0%  100%  
+	                   6	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\listview\
+	    Older     		    1218	bulkActionPermissions.prevalues.html  0%  100%  
+	    Older     		    2479	includeproperties.prevalues.html  0%  100%  
+	    Older     		    2297	layouts.prevalues.html  0%  100%  
+	    Older     		    8482	listview.html  0%  100%  
+	    Older     		     459	orderDirection.prevalues.html  0%  100%  
+	    Older     		     190	sortby.prevalues.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\grid\
+	    Older     		    3329	grid.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\list\
+	    Older     		    2685	list.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\macrocontainer\
+	    Older     		    1159	macrocontainer.html  0%  100%  
+	    Older     		     217	macrolist.prevalues.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\markdowneditor\
+	    Older     		     538	markdowneditor.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\mediapicker\
+	    Older     		    1636	mediapicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\membergrouppicker\
+	    Older     		     688	membergrouppicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\membergroups\
+	    Older     		     688	membergroups.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\memberpicker\
+	    Older     		     728	memberpicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\multipletextbox\
+	    Older     		     960	multipletextbox.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\nestedcontent\
+	    Older     		    2879	nestedcontent.doctypepicker.html  0%  100%  
+	    Older     		     456	nestedcontent.editor.html  0%  100%  
+	    Older     		    3595	nestedcontent.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\radiobuttons\
+	    Older     		     474	radiobuttons.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\readonlyvalue\
+	    Older     		     161	readonlyvalue.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\relatedlinks\
+	    Older     		    5870	relatedlinks.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\rte\
+	    Older     		    1050	rte.html  0%  100%  
+	    Older     		    1825	rte.prevalues.html  0%  100%  
+	                   4	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\slider\
+	    Older     		     381	handle.prevalues.html  0%  100%  
+	    Older     		     362	orientation.prevalues.html  0%  100%  
+	    Older     		     143	slider.html  0%  100%  
+	    Older     		     382	tooltip.prevalues.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\tags\
+	    Older     		     962	tags.html  0%  100%  
+	    Older     		     209	tags.prevalues.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\templatepicker\
+	    Older     		     113	templatepicker.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\test\
+	    Older     		     476	test.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\textarea\
+	    Older     		     656	textarea.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\textbox\
+	    Older     		     746	textbox.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\ultrasimple\
+	    Older     		     243	ultrasimple.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\urllist\
+	    Older     		     509	urllist.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\propertyeditors\validationtest\
+	    Older     		     558	validationtest.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\scripts\
+	    Older     		    2089	create.html  0%  100%  
+	    Older     		     432	delete.html  0%  100%  
+	    Older     		    1789	edit.html  0%  100%  
+	                   2	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\templates\
+	    Older     		     446	delete.html  0%  100%  
+	    Older     		    7398	edit.html  0%  100%  
+	                   3	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\users\
+	    Older     		   11715	group.html  0%  100%  
+	    Older     		     646	overview.html  0%  100%  
+	    Older     		   26760	user.html  0%  100%  
+	                   0	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\users\views\
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\users\views\groups\
+	    Older     		    4917	groups.html  0%  100%  
+	                   1	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Views\users\views\users\
+	    Older     		   27903	users.html  0%  100%  
+	                  15	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Webservices\
+	    Older     		   26403	ajax.js  0%  100%  
+	    Older     		     125	CacheRefresher.asmx  0%  100%  
+	    Older     		     130	CheckForUpgrade.asmx  0%  100%  
+	    Older     		     111	CMSNode.asmx  0%  100%  
+	    Older     		     125	codeEditorSave.asmx  0%  100%  
+	    Older     		     127	legacyAjaxCalls.asmx  0%  100%  
+	    Older     		     142	MacroContainerService.asmx  0%  100%  
+	    Older     		     134	MediaUploader.ashx  0%  100%  
+	    Older     		     117	nodeSorter.asmx  0%  100%  
+	    Older     		     125	progressStatus.asmx  0%  100%  
+	    Older     		     106	publication.asmx  0%  100%  
+	    Older     		     154	TagsAutoCompleteHandler.ashx  0%  100%  
+	    Older     		     134	TreeClientService.asmx  0%  100%  
+	    Older     		     130	TreeDataService.ashx  0%  100%  
+	    Older     		    8404	wsdl.xslt  0%  100%  
+	                   5	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Xslt\
+	    Older     		     667	macroGetCurrent.xsl  0%  100%  
+	    Older     		    1178	macroGetSubs.xsl  0%  100%  
+	    Older     		    1114	searchResult.xslt  0%  100%  
+	    Older     		    1756	sqlNodeHierachy.xslt  0%  100%  
+	    Older     		     594	Web.config  0%  100%  
+	                  15	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Xslt\Templates\
+	    Older     		    1085	Breadcrumb.xslt  0%  100%  
+	    Older     		     527	Clean.xslt  0%  100%  
+	    Older     		    1264	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    Older     		    1063	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    Older     		     918	ListSubPagesByDocumentType.xslt  0%  100%  
+	    Older     		     886	ListSubPagesByLevel.xslt  0%  100%  
+	    Older     		     956	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    Older     		     756	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    Older     		    1151	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    Older     		     771	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    Older     		    1280	NavigationPrototype.xslt  0%  100%  
+	    Older     		    1701	RelatedLinks.xslt  0%  100%  
+	    Older     		    3263	RSSFeed.xslt  0%  100%  
+	    Older     		    1579	Sitemap.xslt  0%  100%  
+	    Older     		    1586	TablePrototype.xslt  0%  100%  
+	                  15	C:\Dev\Clients\PCEP\DatabaseMigration_7.7.0\packages\UmbracoCms.7.7.0\UmbracoFiles\Umbraco\Xslt\Templates\Schema2\
+	    Older     		    1066	Breadcrumb.xslt  0%  100%  
+	    Older     		     527	Clean.xslt  0%  100%  
+	    Older     		    1015	ListSubPagesAsThumbnails.xslt  0%  100%  
+	    Older     		    1055	ListSubPagesByDateAndLimit.xslt  0%  100%  
+	    Older     		     891	ListSubPagesByDocumentType.xslt  0%  100%  
+	    Older     		     875	ListSubPagesByLevel.xslt  0%  100%  
+	    Older     		     948	ListSubPagesFromAChangableSource.xslt  0%  100%  
+	    Older     		     748	ListSubPagesFromCurrentPage.xslt  0%  100%  
+	    Older     		     893	ListThumbnailsFromCurrentPage.xslt  0%  100%  
+	    Older     		     763	ListWholeStructureFromCurrentPage.xslt  0%  100%  
+	    Older     		    1267	NavigationPrototype.xslt  0%  100%  
+	    Older     		    1714	RelatedLinks.xslt  0%  100%  
+	    Older     		    3251	RSSFeed.xslt  0%  100%  
+	    Older     		    1567	Sitemap.xslt  0%  100%  
+	    Older     		    1560	TablePrototype.xslt  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       299         0       299         0         0         0
+   Files :      1275      1274         1         0         0         0
+   Bytes :   18.39 m   18.38 m     4.2 k         0         0         0
+   Times :   0:00:15   0:00:14                       0:00:00   0:00:00
+
+
+   Speed :             1322299 Bytes/sec.
+   Speed :              75.662 MegaBytes/min.
+   Ended : Monday, 23 April 2018 1:05:07 PM
+
